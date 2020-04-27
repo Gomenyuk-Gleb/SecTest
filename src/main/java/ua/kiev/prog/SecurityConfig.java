@@ -2,6 +2,7 @@ package ua.kiev.prog;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
@@ -29,7 +30,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .csrf().disable()
                 .authorizeRequests()
                 .antMatchers("/")
-                    .hasAnyRole("USER", "ADMIN", "MODER")
+                        .hasAnyRole("USER", "ADMIN", "MODER")
                 //.antMatchers("/admin") //@PreAuthorize
                 //    .hasRole("ADMIN")
                 .antMatchers("/register")

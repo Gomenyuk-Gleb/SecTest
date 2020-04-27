@@ -14,7 +14,6 @@ public class AppConfig extends GlobalMethodSecurityConfiguration {
 
     public static final String ADMIN = "admin";
 
-
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
@@ -30,8 +29,8 @@ public class AppConfig extends GlobalMethodSecurityConfiguration {
                 UserRole.ADMIN, "", "");
         toJson.addUser(customUserAdmin);
 
-        CustomUser customUserModer = new CustomUser("moder",
-                encoder.encode("123456"),
+        CustomUser customUserModer = new CustomUser("Moder",
+                encoder.encode("password"),
                 UserRole.MODER, "", "");
         toJson.addUser(customUserModer);
 

@@ -58,9 +58,4 @@ public class ToJson {
         return customUsers;
     }
 
-    public List<CustomUser> getListWithoutAdmin() {
-        return getList().stream()
-                .filter(i -> !i.getRole().toString().equals("ROLE_ADMIN"))
-                .collect(Collectors.toList());
-    }
 }

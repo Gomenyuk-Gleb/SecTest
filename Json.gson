@@ -1,21 +1,21 @@
 [
   {
     "login": "admin",
-    "password": "$2a$10$4GcuB/6Xu4Jh7bMAMjQy5uuWOLdDscqbu3d/uIS9z3ihVq.ZsnUb6",
+    "password": "$2a$10$E4d6.LrzPKV3tLMzSvDAku9x410/ruKnO0tfu8wEgi1PhdLjr6HcO",
     "role": "ADMIN",
     "email": "",
     "phone": ""
   },
   {
-    "login": "moder",
-    "password": "$2a$10$xZrNo7dFd1aIpeOj8sVN0eywdZGadPVt5KWUM/lZ900elRlMF2uVy",
+    "login": "Moder",
+    "password": "$2a$10$J6Z0nGxdNnhfsvdCvXVgGexvMeG7EIPpX3YtObe4vZYCRBU697NtO",
     "role": "MODER",
     "email": "",
     "phone": ""
   },
   {
     "login": "user",
-    "password": "$2a$10$fHx1D0IMuVm2Z2OzbfYWCeATm55vJsccc5eLwEK5d59KV7HycztqG",
+    "password": "$2a$10$YM.JBaMSNL01JPMNW4aBH.Gm19AOWSHU1rB/Pan2u9KY7Srm73XTa",
     "role": "USER",
     "email": "",
     "phone": ""
